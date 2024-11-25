@@ -177,12 +177,14 @@ footer {
     text-decoration-thickness: 5px;
     border-bottom: 5px solid white;
     padding-bottom: 11px;
-    width: 800px; /* adjusted the width for the white line */
+    width: 800px;
+    /* adjusted the width for the white line */
     /* used both underline and border-bottom to create a different color double underline that extends till the end of the tools stack. used paddding to push the border bottom under the underline so it looks like a double underline */
 }
 
 .tech h2:after {
-    content: ".................................."; /* added this content to the end of the h2 so i could extend the line till the half way of the tools kit and made it transplant so it is not visible*/
+    content: "..................................";
+    /* added this content to the end of the h2 so i could extend the line till the half way of the tools kit and made it transplant so it is not visible*/
     color: transparent;
 }
 
